@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import { Col, Row, Media, Button, Spinner } from "reactstrap";
-import Menu2 from "../../../public/assets/images/vegetables/Blog/1.jpg";
+import Menu2 from "../../../public/assets/images/vegetables/blog/1.jpg";
 import { useQuery } from "@apollo/client";
 import { gql } from "@apollo/client";
 import FilterContext from "../../../helpers/filter/FilterContext";
