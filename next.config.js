@@ -2,9 +2,12 @@
 
 const nextConfig = {
   env: {
-    next_public_graphql_api_endpoint:
-      "https://freshbitegrocers-p89s8vze7-mubasheers-projects.vercel.app/graphql",
+    API_URL: "https://multikart-graphql-reactpixelstrap.vercel.app/server.js",
   },
+  // env: {
+  //   next_public_graphql_api_endpoint:
+  //     "https://freshbitegrocers-p89s8vze7-mubasheers-projects.vercel.app/graphql",
+  // },
 
   // if you want to run with local graphQl un-comment below one and comment the above code
   // env: {
