@@ -68,7 +68,10 @@ const MasterFooterThree = ({ layoutClass, footerSectionLayout, logoName, footerC
                       <div className="footer-logo">
                         <LogoImage logo={logoName} />
                       </div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                      <p>Welcome to Sitarah Store, where quality meets convenience! We
+                      take pride in providing fresh, locally sourced produce and
+                      a wide array of pantry essentials to fuel your everyday
+                      adventures in the kitchen.</p>
                       <div className="footer-social">
                         <ul>
                           <li>
@@ -206,13 +209,13 @@ const MasterFooterThree = ({ layoutClass, footerSectionLayout, logoName, footerC
                       <div className="footer-contant">
                         <ul className="contact-list">
                           <li>
-                            <i className="fa fa-map-marker"></i>Multikart Demo Store, Demo store India 345-659
+                            <i className="fa fa-map-marker"></i>Sitarah Demo Store, Demo store India
                           </li>
                           <li>
-                            <i className="fa fa-phone"></i>Call Us: 123-456-7898
+                            <i className="fa fa-phone"></i>Call Us: 955 - 37 - 76507
                           </li>
                           <li>
-                            <i className="fa fa-envelope-o"></i>Email Us: <a href="#">Support@Fiot.com</a>
+                            <i className="fa fa-envelope-o"></i>Email Us: <a href="#">Support@Sitarah.com</a>
                           </li>
                           <li>
                             <i className="fa fa-fax"></i>Fax: 123456

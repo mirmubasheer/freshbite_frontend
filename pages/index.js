@@ -49,7 +49,7 @@ const Vegetables = () => {
           href={"/assets/images/favicon/1.png"}
         />
       </Helmet> */}
-      <ModalComponent />
+
       {/* <HeaderOne logoName={"logo.png"} topClass="top-header" /> */}
       <HeaderTwo logoName={"logo.png"} topClass="top-header" />
       <Banner />

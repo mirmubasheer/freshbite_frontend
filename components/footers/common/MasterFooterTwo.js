@@ -42,7 +42,10 @@ const MasterFooterTwo = ({ layoutClass, logoName, footerClass, footerSection, lo
                   <Collapse isOpen={width ? (collapse === 1 ? isOpen : false) : true}>
                     <div className="footer-contant">
                       <div className={`footer-logo ${footerLogoClass}`}>{logoImg ? <LogoImage logo={logoName} /> : <img src={logoName.src} alt="" />}</div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                      <p>Welcome to Sitarah Store, where quality meets convenience! We
+                      take pride in providing fresh, locally sourced produce and
+                      a wide array of pantry essentials to fuel your everyday
+                      adventures in the kitchen.</p>
                     </div>
                   </Collapse>
                 </Col>
@@ -73,10 +76,10 @@ const MasterFooterTwo = ({ layoutClass, logoName, footerClass, footerSection, lo
                   <Collapse isOpen={width ? (collapse === 2 ? isOpen : false) : true}>
                     <div className="footer-contant">
                       <ul className="contact-details">
-                        <li>Multikart Demo Store, Demo store India 345-659</li>
-                        <li>Call Us: 123-456-7898</li>
+                        <li>Sitarah Demo Store, Demo store India</li>
+                        <li>Call Us: 955-37-76507</li>
                         <li>
-                          Email Us: <a href={null}>Support@Fiot.com</a>
+                          Email Us: <a href={null}>Support@Sitarah.com</a>
                         </li>
                         <li>Fax: 123456</li>
                       </ul>

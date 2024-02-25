@@ -113,10 +113,10 @@ const FooterFive = ({ layoutClass, logoName }) => {
                       <Collapse isOpen={width ? (collapse === 2 ? isOpen : false) : true}>
                         <div className="footer-contant">
                           <ul className="contact-details">
-                            <li>Multikart Demo Store, Demo store India 345-659</li>
-                            <li>Call Us: 123-456-7898</li>
+                            <li>Sitarah Demo Store, Demo store India</li>
+                            <li>Call Us: 955 - 32 - 76507</li>
                             <li>
-                              Email Us: <a href="#">Support@Fiot.com</a>
+                              Email Us: <a href="#">Support@Sitarah.com</a>
                             </li>
                             <li>Fax: 123456</li>
                           </ul>

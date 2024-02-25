@@ -10,13 +10,12 @@ const FooterNine = () => {
                     <Row>
                         <Col xl="6" md="6" sm="12">
                             <div className="footer-end">
-                                <p><i className="fa fa-copyright" aria-hidden="true"></i> 2023-24 themeforest powered by
-                                pixelstrap</p>
+                                <p><i className="fa fa-copyright" aria-hidden="true"></i></p>
                             </div>
                         </Col>
                         <Col xl="6" md="6" sm="12">
                             <div className="payment-card-bottom text-end">
-                                <p>Contact us: 123 456 7890</p>
+                                <p>Contact us:955 - 32 - 76507</p>
                             </div>
                         </Col>
                     </Row>

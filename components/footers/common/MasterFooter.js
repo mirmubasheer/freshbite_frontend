@@ -55,8 +55,8 @@ const MasterFooter = ({
                       <div>
                         <h4>KNOW IT ALL FIRST!</h4>
                         <p>
-                          Never Miss Anything From Multikart By Signing Up To
-                          Our Newsletter.
+                          Never Miss Anything From Sitarah By Signing Up To Our
+                          Newsletter.
                         </p>
                       </div>
                     </div>
@@ -91,26 +91,30 @@ const MasterFooter = ({
                 <div
                   className={`footer-title ${
                     isOpen && collapse == 1 ? "active" : ""
-                  } footer-mobile-title`}>
+                  } footer-mobile-title`}
+                >
                   <h4
                     onClick={() => {
                       setCollapse(1);
                       setIsOpen(!isOpen);
-                    }}>
+                    }}
+                  >
                     about
                     <span className="according-menu"></span>
                   </h4>
                 </div>
                 <Collapse
-                  isOpen={width ? (collapse === 1 ? isOpen : false) : true}>
+                  isOpen={width ? (collapse === 1 ? isOpen : false) : true}
+                >
                   <div className="footer-contant">
                     <div className="footer-logo">
                       <LogoImage logo={logoName} />
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam,
+                      Welcome to Sitarah Store, where quality meets convenience! We
+                      take pride in providing fresh, locally sourced produce and
+                      a wide array of pantry essentials to fuel your everyday
+                      adventures in the kitchen.
                     </p>
                     <div className="footer-social">
                       <ul>
@@ -118,14 +122,16 @@ const MasterFooter = ({
                           <a href="https://www.facebook.com" target="_blank">
                             <i
                               className="fa fa-facebook"
-                              aria-hidden="true"></i>
+                              aria-hidden="true"
+                            ></i>
                           </a>
                         </li>
                         <li>
                           <a href="https://plus.google.com" target="_blank">
                             <i
                               className="fa fa-google-plus"
-                              aria-hidden="true"></i>
+                              aria-hidden="true"
+                            ></i>
                           </a>
                         </li>
                         <li>
@@ -137,7 +143,8 @@ const MasterFooter = ({
                           <a href="https://www.instagram.com" target="_blank">
                             <i
                               className="fa fa-instagram"
-                              aria-hidden="true"></i>
+                              aria-hidden="true"
+                            ></i>
                           </a>
                         </li>
                         <li>
@@ -155,20 +162,23 @@ const MasterFooter = ({
                   <div
                     className={`footer-title ${
                       isOpen && collapse == 2 ? "active" : ""
-                    } `}>
+                    } `}
+                  >
                     <h4
                       onClick={() => {
                         if (width) {
                           setIsOpen(!isOpen);
                           setCollapse(2);
                         } else setIsOpen(true);
-                      }}>
+                      }}
+                    >
                       my account
                       <span className="according-menu"></span>
                     </h4>
                   </div>
                   <Collapse
-                    isOpen={width ? (collapse === 2 ? isOpen : false) : true}>
+                    isOpen={width ? (collapse === 2 ? isOpen : false) : true}
+                  >
                     <div className="footer-contant">
                       <ul>
                         <li>
@@ -209,20 +219,23 @@ const MasterFooter = ({
                   <div
                     className={`footer-title ${
                       isOpen && collapse == 3 ? "active" : ""
-                    } `}>
+                    } `}
+                  >
                     <h4
                       onClick={() => {
                         if (width) {
                           setIsOpen(!isOpen);
                           setCollapse(3);
                         } else setIsOpen(true);
-                      }}>
+                      }}
+                    >
                       why we choose
                       <span className="according-menu"></span>
                     </h4>
                   </div>
                   <Collapse
-                    isOpen={width ? (collapse === 3 ? isOpen : false) : true}>
+                    isOpen={width ? (collapse === 3 ? isOpen : false) : true}
+                  >
                     <div className="footer-contant">
                       <ul>
                         <li>
@@ -250,32 +263,36 @@ const MasterFooter = ({
                   <div
                     className={`footer-title ${
                       isOpen && collapse == 4 ? "active" : ""
-                    } `}>
+                    } `}
+                  >
                     <h4
                       onClick={() => {
                         if (width) {
                           setIsOpen(!isOpen);
                           setCollapse(4);
                         } else setIsOpen(true);
-                      }}>
+                      }}
+                    >
                       store information
                       <span className="according-menu"></span>
                     </h4>
                   </div>
                   <Collapse
-                    isOpen={width ? (collapse === 4 ? isOpen : false) : true}>
+                    isOpen={width ? (collapse === 4 ? isOpen : false) : true}
+                  >
                     <div className="footer-contant">
                       <ul className="contact-list">
                         <li>
-                          <i className="fa fa-map-marker"></i>Multikart Demo
-                          Store, Demo store India 345-659
+                          <i className="fa fa-map-marker"></i>Sitarah Demo
+                          Store, Demo store India
                         </li>
                         <li>
-                          <i className="fa fa-phone"></i>Call Us: 123-456-7898
+                          <i className="fa fa-phone"></i>Call Us: 955 - 32 -
+                          76507
                         </li>
                         <li>
                           <i className="fa fa-envelope-o"></i>Email Us:{" "}
-                          <a href="#">Support@Fiot.com</a>
+                          <a href="#">Support@Sitarah.com</a>
                         </li>
                         <li>
                           <i className="fa fa-fax"></i>Fax: 123456

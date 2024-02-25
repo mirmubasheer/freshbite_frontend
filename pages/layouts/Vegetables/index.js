@@ -19,7 +19,6 @@ const Vegetables = () => {
   });
   return (
     <>
-      <ModalComponent />
       <HeaderTwo logoName={"logo.png"} topClass="top-header" />
       <Banner />
       <Collections />
