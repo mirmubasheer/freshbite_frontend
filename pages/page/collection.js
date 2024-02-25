@@ -14,7 +14,7 @@ const MasterCollectionData = [
   {
     img: one,
     totalProducts: "(20 Products)",
-    type: "fashion",
+    type: "vegetables",
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
     link: "#",
@@ -23,7 +23,7 @@ const MasterCollectionData = [
   {
     img: three,
     totalProducts: "(20 Products)",
-    type: "fashion",
+    type: "vegetables",
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
     link: "#",
@@ -32,7 +32,7 @@ const MasterCollectionData = [
   {
     img: five,
     totalProducts: "(20 Products)",
-    type: "fashion",
+    type: "vegetables",
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
     link: "#",
@@ -41,7 +41,7 @@ const MasterCollectionData = [
   {
     img: six,
     totalProducts: "(20 Products)",
-    type: "fashion",
+    type: "vegetables",
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
     link: "#",
@@ -50,7 +50,7 @@ const MasterCollectionData = [
   {
     img: seven,
     totalProducts: "(20 Products)",
-    type: "fashion",
+    type: "vegetables",
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
     link: "#",
@@ -59,7 +59,7 @@ const MasterCollectionData = [
   {
     img: eight,
     totalProducts: "(20 Products)",
-    type: "fashion",
+    type: "vegetables",
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
     link: "#",
@@ -68,7 +68,7 @@ const MasterCollectionData = [
   {
     img: nine,
     totalProducts: "(20 Products)",
-    type: "fashion",
+    type: "vegetables",
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
     link: "#",
@@ -77,7 +77,7 @@ const MasterCollectionData = [
   {
     img: eleven,
     totalProducts: "(20 Products)",
-    type: "fashion",
+    type: "vegetables",
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
     link: "#",
