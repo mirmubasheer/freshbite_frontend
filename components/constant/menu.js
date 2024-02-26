@@ -23,7 +23,7 @@ export const MENUITEMS = [
       //   ],
       // },
       {
-        title: "Clothing",
+        title: "Beverages",
         type: "sub",
         children: [
           { path: "/", title: "Fashion1", type: "link" },
@@ -33,7 +33,7 @@ export const MENUITEMS = [
         ],
       },
       {
-        title: "Basics",
+        title: "Dry fruits",
         type: "sub",
         children: [
           { path: "/layouts/Basics/Lookbook", title: "Lookbook", type: "link" },
@@ -46,23 +46,23 @@ export const MENUITEMS = [
           },
         ],
       },
-      { path: "/layouts/Beauty", title: "Beauty", type: "link" },
-      {
-        title: "electronic",
-        type: "sub",
-        children: [
-          {
-            path: "/layouts/Electronic/Electronic-1",
-            title: "Electronic-1",
-            type: "link",
-          },
-          {
-            path: "/layouts/Electronic/Electronic-2",
-            title: "Electronic-2",
-            type: "link",
-          },
-        ],
-      },
+      // { path: "/layouts/Beauty", title: "Beauty", type: "link" },
+      // {
+      //   title: "electronic",
+      //   type: "sub",
+      //   children: [
+      //     {
+      //       path: "/layouts/Electronic/Electronic-1",
+      //       title: "Electronic-1",
+      //       type: "link",
+      //     },
+      //     {
+      //       path: "/layouts/Electronic/Electronic-2",
+      //       title: "Electronic-2",
+      //       type: "link",
+      //     },
+      //   ],
+      // },
       // { path: "/layouts/Furniture", title: "Furniture", type: "link" },
       // { path: "/layouts/Vegetables", title: "Vegetables", type: "link" },
       // { path: "/layouts/Watch", title: "Watch", type: "link" },
@@ -70,7 +70,7 @@ export const MENUITEMS = [
       // { path: "/layouts/Goggles", title: "Goggles", type: "link" },
       // { path: "/layouts/Shoes", title: "Shoes", type: "link" },
       // { path: "/layouts/Bags", title: "Bags", type: "link" },
-      // { path: "/layouts/Flowers", title: "Flowers", type: "link" },
+      { path: "/layouts/Flowers", title: "Fruits", type: "link" },
     ],
   },
   {
