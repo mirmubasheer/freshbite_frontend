@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
 import { Row, Col, Media } from "reactstrap";
-import fashion from "../../../public/assets/images/mega-menu/fashion.jpg";
+// import fashion from "../../../public/assets/images/mega-menu/fashion.jpg";
+import Vegetables from "../../../public/assets/images/vegetables/blog/6.jpg";
+
+// import Vegetables from "../../../pages";
 
 const SideBar = () => {
   const closeNav = () => {
@@ -84,7 +87,7 @@ const SideBar = () => {
           <ul id="sub-menu" className="sidebar-menu">
             <li>
               <a href="#" onClick={(e) => handleMegaSubmenu(e)}>
-                clothing
+                All Categories
                 <span className="sub-arrow"></span>
               </a>
               <ul className="mega-menu clothing-menu">
@@ -92,75 +95,76 @@ const SideBar = () => {
                   <Row m="0">
                     <Col xl="4">
                       <div className="link-section">
-                        <h5>women's fashion</h5>
+                        <h5>Fruits</h5>
                         <ul>
                           <li>
-                            <a href="#">dresses</a>
+                            <a href="#">Fresh fruits</a>
                           </li>
                           <li>
-                            <a href="#">skirts</a>
+                            <a href="#">frozen fruits</a>
                           </li>
                           <li>
-                            <a href="#">westarn wear</a>
+                            <a href="#">indian mangoes</a>
                           </li>
                           <li>
-                            <a href="#">ethic wear</a>
-                          </li>
-                          <li>
-                            <a href="#">sport wear</a>
+                            <a href="#">organic fruits</a>
                           </li>
                         </ul>
-                        <h5>men's fashion</h5>
+                        <h5>Vegetables</h5>
                         <ul>
                           <li>
-                            <a href="#">sports wear</a>
+                            <a href="#">frozen veggies</a>
                           </li>
                           <li>
-                            <a href="#">western wear</a>
+                            <a href="#">leafy vegetables</a>
                           </li>
                           <li>
-                            <a href="#">ethic wear</a>
+                            <a href="#">organic veggies</a>
                           </li>
                         </ul>
                       </div>
                     </Col>
                     <Col xl="4">
                       <div className="link-section">
-                        <h5>accessories</h5>
+                        <h5>beverages</h5>
                         <ul>
                           <li>
-                            <a href="#">fashion jewellery</a>
+                            <a href="#">coffee</a>
                           </li>
                           <li>
-                            <a href="#">caps and hats</a>
+                            <a href="#">tea</a>
                           </li>
                           <li>
-                            <a href="#">precious jewellery</a>
+                            <a href="#">tea bags</a>
                           </li>
                           <li>
-                            <a href="#">necklaces</a>
+                            <a href="#">organic beverages</a>
                           </li>
                           <li>
-                            <a href="#">earrings</a>
+                            <a href="#">fruit juice and drinks</a>
                           </li>
                           <li>
-                            <a href="#">wrist wear</a>
+                            <a href="#">soft drinks and soda</a>
                           </li>
                           <li>
-                            <a href="#">ties</a>
+                            <a href="#">powder drinks</a>
                           </li>
                           <li>
-                            <a href="#">cufflinks</a>
+                            <a href="#">pulp</a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="#">pockets squares</a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </Col>
                     <Col xl="4">
                       <a href="#" className="mega-menu-banner">
-                        <Media src={fashion.src} alt="" className="img-fluid" />
+                        <Media
+                          src={Vegetables.src}
+                          alt=""
+                          className="img-fluid"
+                        />
                       </a>
                     </Col>
                   </Row>
@@ -169,36 +173,36 @@ const SideBar = () => {
             </li>
             <li>
               <a href="#" onClick={(e) => handleSubmenu(e)}>
-                bags
+                Food Grains, Oils & Masala's
                 <span className="sub-arrow"></span>
               </a>
               <ul>
                 <li>
-                  <a href="#">shopper bags</a>
+                  <a href="#">basmati rice</a>
                 </li>
                 <li>
-                  <a href="#">laptop bags</a>
+                  <a href="#">brown rice</a>
                 </li>
                 <li>
-                  <a href="#">clutches</a>
+                  <a href="#">idli rice</a>
                 </li>
                 <li>
                   <a href="#" onClick={(e) => handleSubTwoMenu(e)}>
-                    purses
+                    dal & pulses
                     <span className="sub-arrow"></span>
                   </a>
                   <ul>
                     <li>
-                      <a href="#">purses</a>
+                      <a href="#">chana dal</a>
                     </li>
                     <li>
-                      <a href="#">wallets</a>
+                      <a href="#">masoor dal</a>
                     </li>
                     <li>
-                      <a href="#">leathers</a>
+                      <a href="#">moong dal</a>
                     </li>
                     <li>
-                      <a href="#">satchels</a>
+                      <a href="#">organic dal</a>
                     </li>
                   </ul>
                 </li>
@@ -206,38 +210,38 @@ const SideBar = () => {
             </li>
             <li>
               <a href="#" onClick={(e) => handleSubmenu(e)}>
-                footwear
+                Batters,Dairy & Poultry
                 <span className="sub-arrow"></span>
               </a>
               <ul>
                 <li>
-                  <a href="#">sport shoes</a>
+                  <a href="#">idli & dosa batters</a>
                 </li>
                 <li>
-                  <a href="#">formal shoes</a>
+                  <a href="#">organic idli & dosa</a>
                 </li>
                 <li>
-                  <a href="#">casual shoes</a>
+                  <a href="#">batters</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#">watches</a>
+              <a href="#">eggs</a>
             </li>
             <li>
               <a href="#" onClick={(e) => handleSubmenu(e)}>
-                Accessories
+                Sweet & Dry Fruits
                 <span className="sub-arrow"></span>
               </a>
               <ul>
                 <li>
-                  <a href="#">fashion jewellery</a>
+                  <a href="#">branded sweets</a>
                 </li>
                 <li>
-                  <a href="#">caps and hats</a>
+                  <a href="#">dry fruit sweets</a>
                 </li>
                 <li>
-                  <a href="#">precious jewellery</a>
+                  <a href="#">food colour</a>
                 </li>
                 <li>
                   <a href="#" onClick={(e) => handleSubTwoMenu(e)}>
@@ -246,41 +250,41 @@ const SideBar = () => {
                   </a>
                   <ul>
                     <li>
-                      <a href="#">necklaces</a>
+                      <a href="#">powders</a>
                     </li>
                     <li>
-                      <a href="#">earrings</a>
+                      <a href="#">frozen</a>
                     </li>
                     <li>
-                      <a href="#">wrist wear</a>
+                      <a href="#">home made</a>
                     </li>
                     <li>
                       <a href="#" onClick={(e) => handleSubThreeMenu(e)}>
-                        accessories
+                        dry fruits & nuts
                         <span className="sub-arrow"></span>
                       </a>
                       <ul>
                         <li>
-                          <a href="#">ties</a>
+                          <a href="#">dry fruits & nuts</a>
                         </li>
                         <li>
-                          <a href="#">cufflinks</a>
+                          <a href="#">dry fruits sweets</a>
                         </li>
                         <li>
-                          <a href="#">pockets squares</a>
+                          <a href="#">gift boxes</a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a href="#">helmets</a>
                         </li>
                         <li>
                           <a href="#">scarves</a>
-                        </li>
+                        </li> */}
                         <li>
-                          <a href="#" onClick={(e) => handleSubFourMenu(e)}>
+                          {/* <a href="#" onClick={(e) => handleSubFourMenu(e)}>
                             more...
                             <span className="sub-arrow"></span>
-                          </a>
-                          <ul>
+                          </a> */}
+                          {/* <ul>
                             <li>
                               <a href="#">accessory gift sets</a>
                             </li>
@@ -290,7 +294,7 @@ const SideBar = () => {
                             <li>
                               <a href="#">phone cases</a>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
                       </ul>
                     </li>
@@ -305,22 +309,22 @@ const SideBar = () => {
               </ul>
             </li>
             <li>
-              <a href="#">house of design</a>
+              <a href="#">Snacks</a>
             </li>
             <li>
               <a href="#" onClick={(e) => handleSubmenu(e)}>
-                beauty & personal care
+                biscuits, cakes, chocolates & More
                 <span className="sub-arrow"></span>
               </a>
               <ul>
                 <li>
-                  <a href="#">makeup</a>
+                  <a href="#">cakes</a>
                 </li>
                 <li>
-                  <a href="#">skincare</a>
+                  <a href="#">cashew,choco</a>
                 </li>
                 <li>
-                  <a href="#">premium beaty</a>
+                  <a href="#">biscuuits & more</a>
                 </li>
                 <li>
                   <a href="#" onClick={(e) => handleSubTwoMenu(e)}>
@@ -329,26 +333,23 @@ const SideBar = () => {
                   </a>
                   <ul>
                     <li>
-                      <a href="#">fragrances</a>
+                      <a href="#">chocolates</a>
                     </li>
                     <li>
-                      <a href="#">luxury beauty</a>
+                      <a href="#">rusk</a>
                     </li>
                     <li>
-                      <a href="#">hair care</a>
-                    </li>
-                    <li>
-                      <a href="#">tools & brushes</a>
+                      <a href="#">waffers</a>
                     </li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#">home & decor</a>
+              <a href="#">pooja & festival items</a>
             </li>
             <li>
-              <a href="#">kitchen</a>
+              <a href="#">personal & home care</a>
             </li>
           </ul>
         </nav>
