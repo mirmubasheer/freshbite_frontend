@@ -264,7 +264,8 @@ const ThemeSettings = () => {
             <div
               className="btn-group demo-btn"
               role="group"
-              aria-label="Basic example">
+              aria-label="Basic example"
+            >
               <Link href={link} className="btn new-tab-btn">
                 {/* <a > */}
                 {btnName}
@@ -279,14 +280,14 @@ const ThemeSettings = () => {
 
   return (
     <div>
-      <a href={null} onClick={() => openSetting()}>
+      {/* <a href={null} onClick={() => openSetting()}>
         <div className="setting-sidebar" id="setting-icon">
           <div>
             <i className="fa fa-cog" aria-hidden="true"></i>
           </div>
         </div>
-      </a>
-      <div id="setting_box" className="setting-box">
+      </a> */}
+      {/* <div id="setting_box" className="setting-box">
         <a href="# " className="overlay" onClick={() => closeSetting()}></a>
         <div className="setting_box_body">
           <div onClick={() => closeSetting()}>
@@ -498,7 +499,7 @@ const ThemeSettings = () => {
             onClick={toggle}
             title="Configuration"></i>
         </a>
-      </div>
+      </div> */}
       <Modal centered={true} isOpen={modal} toggle={toggle}>
         <ModalHeader toggle={toggle}>Config</ModalHeader>
         <ModalBody className="p-3">
