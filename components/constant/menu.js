@@ -26,24 +26,24 @@ export const MENUITEMS = [
         title: "Beverages",
         type: "sub",
         children: [
-          { path: "/", title: "Fashion1", type: "link" },
-          { path: "/layouts/Fashion2", title: "Fashion2", type: "link" },
-          { path: "/layouts/Fashion3", title: "Fashion3", type: "link" },
-          { path: "/layouts/Kids", title: "Kids", type: "link" },
+          { path: "/", title: "Juices", type: "link" },
+          // { path: "/layouts/Fashion2", title: "Fashion2", type: "link" },
+          // { path: "/layouts/Fashion3", title: "Fashion3", type: "link" },
+          // { path: "/layouts/Kids", title: "Kids", type: "link" },
         ],
       },
       {
         title: "Dry fruits",
         type: "sub",
         children: [
-          { path: "/layouts/Basics/Lookbook", title: "Lookbook", type: "link" },
-          { path: "/layouts/Basics/Video", title: "Video", type: "link" },
-          { path: "/layouts/Basics/Parallax", title: "Parallax", type: "link" },
-          {
-            path: "/layouts/Basics/Fullpage",
-            title: "Full Page",
-            type: "link",
-          },
+          { path: "/", title: "walnuts", type: "link" },
+          // { path: "/layouts/Basics/Video", title: "Video", type: "link" },
+          // { path: "/layouts/Basics/Parallax", title: "Parallax", type: "link" },
+          // {
+          //   path: "/layouts/Basics/Fullpage",
+          //   title: "Full Page",
+          //   type: "link",
+          // },
         ],
       },
       // { path: "/layouts/Beauty", title: "Beauty", type: "link" },
@@ -70,121 +70,121 @@ export const MENUITEMS = [
       // { path: "/layouts/Goggles", title: "Goggles", type: "link" },
       // { path: "/layouts/Shoes", title: "Shoes", type: "link" },
       // { path: "/layouts/Bags", title: "Bags", type: "link" },
-      { path: "/layouts/Flowers", title: "Fruits", type: "link" },
+      { path: "/", title: "Fruits", type: "link" },
     ],
   },
   {
     title: "Home",
-    type: "sub",
-    children: [
-      { path: "/shop/left_sidebar", title: "Left Sidebar", type: "link" },
-      { path: "/shop/right_sidebar", title: "Right Sidebar", type: "link" },
-      // { path: "/shop/no_sidebar", title: "No Sidebar", type: "link" },
-      // { path: "/shop/sidebar_popup", title: "Sidebar Popup", type: "link" },
-      // { path: "/shop/metro", title: "Metro", type: "link", tag: "new" },
-      // { path: "/shop/full_width", title: "Full Width", type: "link", tag: "new" },
-      // { path: "/shop/three_grid", title: "3 Grid", type: "link" },
-      // { path: "/shop/six_grid", title: "6 Grid", type: "link" },
-      // { path: "/shop/list_view", title: "List View", type: "link" },
-    ],
+    // type: "sub",
+    // children: [
+    //   { path: "/shop/left_sidebar", title: "Left Sidebar", type: "link" },
+    //   { path: "/shop/right_sidebar", title: "Right Sidebar", type: "link" },
+    //   { path: "/shop/no_sidebar", title: "No Sidebar", type: "link" },
+    //   { path: "/shop/sidebar_popup", title: "Sidebar Popup", type: "link" },
+    //   { path: "/shop/metro", title: "Metro", type: "link", tag: "new" },
+    //   { path: "/shop/full_width", title: "Full Width", type: "link", tag: "new" },
+    //   { path: "/shop/three_grid", title: "3 Grid", type: "link" },
+    //   { path: "/shop/six_grid", title: "6 Grid", type: "link" },
+    //   { path: "/shop/list_view", title: "List View", type: "link" },
+    // ],
   },
   {
     title: "Special Offers",
-    type: "sub",
-    children: [
-      // // {
-      // //   title: "Sidebar",
-      // //   type: "sub",
-      // //   children: [
-      // //     { path: "/product-details/1", title: "Left Sidebar", type: "link" },
-      // //     {
-      // //       path: "/product-details/right_sidebar",
-      // //       title: "Right Sidebar",
-      // //       type: "link",
-      // //     },
-      // //     {
-      // //       path: "/product-details/no-sidebar",
-      // //       title: "No Sidebar",
-      // //       type: "link",
-      // //     },
-      // //   ],
-      // // },
-      // // {
-      // //   title: "Thumbnail Image",
-      // //   type: "sub",
-      // //   children: [
-      // //     {
-      // //       path: "/product-details/thumbnail_left",
-      // //       title: "Left Image",
-      // //       type: "link",
-      // //     },
-      // //     {
-      // //       path: "/product-details/thumbnail_right",
-      // //       title: "Right Image",
-      // //       type: "link",
-      // //     },
-      // //     {
-      // //       path: "/product-details/thumbnail_outside",
-      // //       title: "Image Outside",
-      // //       type: "link",
-      // //     },
-      // //   ],
-      // // },
-      // // {
-      // //   title: "3-Column",
-      // //   type: "sub",
-      // //   children: [
-      // //     {
-      // //       path: "/product-details/3_col_left",
-      // //       title: "Thumbnail Left",
-      // //       type: "link",
-      // //     },
-      // //     {
-      // //       path: "/product-details/3_col_right",
-      // //       title: "Thumbnail Right",
-      // //       type: "link",
-      // //     },
-      // //     {
-      // //       path: "/product-details/3_col_bottom",
-      // //       title: "Thumbnail Bottom",
-      // //       type: "link",
-      // //     },
-      // //   ],
-      // // },
-      // {
-      //   path: "/product-details/4_image",
-      //   title: "4 Image",
-      //   type: "link",
-      //   tag: "New",
-      // },
-      // {
-      //   path: "/product-details/bundle_product",
-      //   title: "Bundle Product",
-      //   type: "link",
-      //   tag: "New",
-      // },
-      // {
-      //   path: "/product-details/sticky",
-      //   title: "Sticky",
-      //   type: "link",
-      // },
-      // {
-      //   path: "/product-details/accordian",
-      //   title: "Accordian",
-      //   type: "link",
-      // },
-      // {
-      //   path: "/product-details/image_swatch",
-      //   title: "Image Swatch",
-      //   type: "link",
-      //   tag: "New",
-      // },
-      {
-        path: "/product-details/vertical_tab",
-        title: "Vertical Tab",
-        type: "link",
-      },
-    ],
+    // type: "sub",
+    // children: [
+    // // {
+    // //   title: "Sidebar",
+    // //   type: "sub",
+    // //   children: [
+    // //     { path: "/product-details/1", title: "Left Sidebar", type: "link" },
+    // //     {
+    // //       path: "/product-details/right_sidebar",
+    // //       title: "Right Sidebar",
+    // //       type: "link",
+    // //     },
+    // //     {
+    // //       path: "/product-details/no-sidebar",
+    // //       title: "No Sidebar",
+    // //       type: "link",
+    // //     },
+    // //   ],
+    // // },
+    // // {
+    // //   title: "Thumbnail Image",
+    // //   type: "sub",
+    // //   children: [
+    // //     {
+    // //       path: "/product-details/thumbnail_left",
+    // //       title: "Left Image",
+    // //       type: "link",
+    // //     },
+    // //     {
+    // //       path: "/product-details/thumbnail_right",
+    // //       title: "Right Image",
+    // //       type: "link",
+    // //     },
+    // //     {
+    // //       path: "/product-details/thumbnail_outside",
+    // //       title: "Image Outside",
+    // //       type: "link",
+    // //     },
+    // //   ],
+    // // },
+    // // {
+    // //   title: "3-Column",
+    // //   type: "sub",
+    // //   children: [
+    // //     {
+    // //       path: "/product-details/3_col_left",
+    // //       title: "Thumbnail Left",
+    // //       type: "link",
+    // //     },
+    // //     {
+    // //       path: "/product-details/3_col_right",
+    // //       title: "Thumbnail Right",
+    // //       type: "link",
+    // //     },
+    // //     {
+    // //       path: "/product-details/3_col_bottom",
+    // //       title: "Thumbnail Bottom",
+    // //       type: "link",
+    // //     },
+    // //   ],
+    // // },
+    // {
+    //   path: "/product-details/4_image",
+    //   title: "4 Image",
+    //   type: "link",
+    //   tag: "New",
+    // },
+    // {
+    //   path: "/product-details/bundle_product",
+    //   title: "Bundle Product",
+    //   type: "link",
+    //   tag: "New",
+    // },
+    // {
+    //   path: "/product-details/sticky",
+    //   title: "Sticky",
+    //   type: "link",
+    // },
+    // {
+    //   path: "/product-details/accordian",
+    //   title: "Accordian",
+    //   type: "link",
+    // },
+    // {
+    //   path: "/product-details/image_swatch",
+    //   title: "Image Swatch",
+    //   type: "link",
+    //   tag: "New",
+    // },
+    // {
+    //   path: "/product-details/vertical_tab",
+    //   title: "Vertical Tab",
+    //   type: "link",
+    // },
+    // ],
   },
   // {
   //   title: "features",
@@ -461,16 +461,16 @@ export const MENUITEMS = [
     children: [
       {
         path: "/blogs/blog_left_sidebar",
-        title: "blog left sidebar",
+        title: "blogs",
         type: "link",
       },
-      {
-        path: "/blogs/blog_right_sidebar",
-        title: "blog right sidebar",
-        type: "link",
-      },
-      { path: "/blogs/no_sidebar", title: "no sidebar", type: "link" },
-      { path: "/blogs/blog_detail", title: "blog detail", type: "link" },
+      // {
+      //   path: "/blogs/blog_right_sidebar",
+      //   title: "blog right sidebar",
+      //   type: "link",
+      // },
+      // { path: "/blogs/no_sidebar", title: "no sidebar", type: "link" },
+      // { path: "/blogs/blog_detail", title: "blog detail", type: "link" },
     ],
   },
 ];

@@ -111,10 +111,10 @@ const MasterFooter = ({
                       <LogoImage logo={logoName} />
                     </div>
                     <p>
-                      Welcome to Sitarah Store, where quality meets convenience! We
-                      take pride in providing fresh, locally sourced produce and
-                      a wide array of pantry essentials to fuel your everyday
-                      adventures in the kitchen.
+                      Welcome to Sitarah Store, where quality meets convenience!
+                      We take pride in providing fresh, locally sourced produce
+                      and a wide array of pantry essentials to fuel your
+                      everyday adventures in the kitchen.
                     </p>
                     <div className="footer-social">
                       <ul>
@@ -182,30 +182,30 @@ const MasterFooter = ({
                     <div className="footer-contant">
                       <ul>
                         <li>
-                          <Link href={`/shop/left_sidebar`}>
+                          <Link href={`/`}>
                             {/* <a> */}
-                            womens
+                            Beverages
                             {/* </a> */}
                           </Link>
                         </li>
                         <li>
-                          <Link href={`/shop/left_sidebar`}>
+                          <Link href={`/`}>
                             {/* <a>  */}
-                            clothing
+                            Dry Fruits
                             {/* </a> */}
                           </Link>
                         </li>
                         <li>
-                          <Link href={`/shop/left_sidebar`}>
+                          <Link href={`/`}>
                             {/* <a> */}
-                            accessories
+                            Snacks
                             {/* </a> */}
                           </Link>
                         </li>
                         <li>
-                          <Link href={`/shop/left_sidebar`}>
+                          <Link href={`/`}>
                             {/* <a> */}
-                            featured
+                            Meat
                             {/* </a> */}
                           </Link>
                         </li>

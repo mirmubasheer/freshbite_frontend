@@ -53,9 +53,9 @@ const BlogSection = ({ type, sectionClass, title, inner, hrClass }) => {
                       </Link>
                       <div className="blog-details">
                         <h4>{item.title}</h4>
-                        <Link href={`/blogs/blog_detail`}>
+                        {/* <Link href={`/blogs/blog_detail`}>
                           <p>{item.desc} </p>
-                        </Link>
+                        </Link> */}
                         <hr className="style1" />
                         <h6>by: {item.date}</h6>
                       </div>
