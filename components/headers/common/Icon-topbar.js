@@ -2,6 +2,7 @@ import React, { Fragment, useContext } from "react";
 import { Media, Container, Row, Col, Input, Form, Button } from "reactstrap";
 import CartContext from "../../../helpers/cart";
 import logo from "../../../public/assets/images/icon/logo.png";
+import logoMobile from "../../../public/assets/images/icon/logo-Mobile.png";
 import like from "../../../public/assets/images/icon/like.png";
 import user from "../../../public/assets/images/icon/users.png";
 import Link from "next/link";
@@ -41,7 +42,8 @@ const IconTopbar = () => {
                 <ul>
                   <li>Welcome to Our store Sitarah</li>
                   <li>
-                    <i className="fa fa-phone" aria-hidden="true"></i>Call Us: 955 - 32 - 76507
+                    <i className="fa fa-phone" aria-hidden="true"></i>Call Us:
+                    955 - 32 - 76507
                   </li>
                 </ul>
               </div>
@@ -51,7 +53,8 @@ const IconTopbar = () => {
                     <div className="bar-style">
                       <i
                         className="fa fa-bars sidebar-bar"
-                        aria-hidden="true"></i>
+                        aria-hidden="true"
+                      ></i>
                     </div>
                   </a>
                 </div>
@@ -59,7 +62,12 @@ const IconTopbar = () => {
                   <a href={null}>
                     <Media
                       src={logo.src}
-                      className="img-fluid blur-up lazyload"
+                      className="img-fluid blur-up lazyload d-none d-sm-block" // Hide for small screens
+                      alt=""
+                    />
+                    <Media
+                      src={logoMobile.src}
+                      className="img-fluid blur-up lazyload d-sm-none" // Show only for small screens
                       alt=""
                     />
                   </a>
